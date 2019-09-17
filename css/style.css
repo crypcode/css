@@ -59,3 +59,31 @@ a{
 	font-style: italic;
 	font-weight: bold;
 }
+.fa-check-square{
+	font-size: 30px;
+	color: purple;
+}
+p{
+	font-size: 2em;
+	text-align: justify;
+	line-height: 2;
+}
+h2{
+	font-size: 3em;
+}
+h1{
+	font-size: 4em;
+}
+.pirmas .fa-check-square{
+	color: red;
+}
+#super .fa-check-square{
+	color:green;
+}
+h2, h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+ul{
+	text-align: center;
+}
