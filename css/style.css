@@ -53,3 +53,9 @@ li:first-child{
 li:last-child{
 	color: red;
 }
+a{
+	font-size: 2em;
+	font-family: 'Squada One', cursive;
+	font-style: italic;
+	font-weight: bold;
+}
