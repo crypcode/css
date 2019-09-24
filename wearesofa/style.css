@@ -1,0 +1,70 @@
+/*stiliaus failas*/
+header{
+	display: block;
+	margin-left: 400px;
+	margin-top: 50px;
+	margin-right: 400px;
+	margin-bottom: 15px;
+	padding: 5px;
+	width: 640px;
+	height: 225px;
+
+
+}
+h1{
+	font-family: Verdana;
+	font-size: 30 px;
+	text-align: center;
+}
+h2{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 2px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
+	text-align: center;
+	font-size: 18px;
+	margin: 30px 350px 10px 350px;
+}
+article{
+	display: inline-block;
+}
+article.first{
+	width: 150px;
+	padding: 2px;
+    margin-left: 400px;
+}
+article.second{
+	width: 150px;
+	padding: 2px;
+	margin-left: 10px;
+}
+article.third{
+	width: 150px;
+	padding: 2px;
+	margin-left: 10px;
+}
+article.four{
+	width: 150px;
+	padding: 2px;
+	margin-left: 10px;
+}
+footer{
+	display:inline-block;
+	width: 650px;
+	padding: 2px;
+	margin-left: 500px;
+}
+h4{
+	display: inline-block;
+	padding: 2px;
+	margin-left: 2px;
+}
+p.foot{
+	display: inline-block;
+	color: grey;
+	margin-left: 2px
+}
+section.footer{
+	display: inline-block;
+}

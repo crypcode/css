@@ -1,0 +1,35 @@
+/*styliaus failas*/
+nav{
+	background-color: #f8f8f8;
+	margin: 20px auto;
+	width: 80%;
+    height: 50px;
+    padding: 1px; /* postumis */
+    border: 1px solid #000000; /* dashed * borderio tipas*/
+}
+nav li {
+	display: inline-block;
+	background-color: tomato;
+	text-align: middle;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+    color: #141907;
+}
+li{
+	width: 60px;
+	height: 20px;
+	color: #141907;
+	background-color: #f3f3f3;
+	margin: 2px 2px 2px 2px;
+	padding: 1px
+}
+li:hover{
+	color: #141907;
+	background-color: #f3f3f3;
+	padding: 1px
+	border: 1px dashed #000;
+}
