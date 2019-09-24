@@ -1,0 +1,36 @@
+/*stilius pozicionavimas*/
+div:first-child{
+	width: 200px;
+	height: 200px;
+	background-color: #DF013A;
+	margin: 20px auto;
+}
+div:last-child{
+	width: 200px;
+	height: 200px;
+	background-color: #088A68;
+	margin: 20px auto;
+}
+div:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  background-color: lime;
+  margin: 20px auto;
+}
+div:nth-child(3) {
+  width: 200px;
+  height: 200px;
+  background-color: #DBA901;
+  margin: 20px auto;
+}
+div:nth-child(4) {
+  width: 200px;
+  height: 200px;
+  background-color: #642EFE;
+  margin: 20px auto;
+}
+p{
+	text-align: center;
+	color: tomato;
+	vertical-align: middle;
+}

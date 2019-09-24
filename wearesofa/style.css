@@ -1,10 +1,14 @@
 /*stiliaus failas*/
 header{
 	display: block;
+	/*
 	margin-left: 400px;
 	margin-top: 50px;
 	margin-right: 400px;
 	margin-bottom: 15px;
+	*/
+	margin: 0 auto; /* iscentruoja */
+	margin-top: 50px;
 	padding: 5px;
 	width: 640px;
 	height: 225px;
@@ -18,7 +22,7 @@ h1{
 }
 h2{
 	display: block;
-	font-family: font-family: 'Lato', sans-serif;
+	font-family:'Lato', sans-serif;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-top: 2px solid #cccccc;
@@ -66,6 +70,9 @@ h4{
 }
 p.foot{
 	color: grey;
-	margin-left: 2px
-	font-family: 'Be Vietnam', sans-serif;
+	margin-left: 2px;
+	padding: 3px;
+}
+p, p.foot{
+	font-family:'Be Vietnam', sans-serif;
 }
