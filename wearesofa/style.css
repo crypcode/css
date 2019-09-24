@@ -12,12 +12,13 @@ header{
 
 }
 h1{
-	font-family: Verdana;
+	font-family:'Big Shoulders Display', cursive;;
 	font-size: 30 px;
 	text-align: center;
 }
 h2{
 	display: block;
+	font-family: font-family: 'Lato', sans-serif;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-top: 2px solid #cccccc;
@@ -49,22 +50,22 @@ article.four{
 	padding: 2px;
 	margin-left: 10px;
 }
+
+footer,h4, p.foot, section.footer{
+	display: inline-block;
+}
 footer{
-	display:inline-block;
 	width: 650px;
 	padding: 2px;
 	margin-left: 500px;
 }
 h4{
-	display: inline-block;
 	padding: 2px;
 	margin-left: 2px;
+	font-family: 'Be Vietnam', sans-serif;
 }
 p.foot{
-	display: inline-block;
 	color: grey;
 	margin-left: 2px
-}
-section.footer{
-	display: inline-block;
+	font-family: 'Be Vietnam', sans-serif;
 }
