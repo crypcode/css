@@ -3,34 +3,54 @@ div:first-child{
 	width: 200px;
 	height: 200px;
 	background-color: #DF013A;
-	margin: 20px auto;
+	margin: 0px auto;
+	float: right;
+	
 }
 div:last-child{
 	width: 200px;
 	height: 200px;
 	background-color: #088A68;
-	margin: 20px auto;
+	margin: 0px auto;
+	float: left;
 }
 div:nth-child(2) {
   width: 200px;
   height: 200px;
   background-color: lime;
-  margin: 20px auto;
+  margin: 0px auto;
+  float: right;
+  
 }
 div:nth-child(3) {
   width: 200px;
   height: 200px;
   background-color: #DBA901;
-  margin: 20px auto;
+  margin: 0px auto;
+  float: right;
+  
 }
 div:nth-child(4) {
   width: 200px;
   height: 200px;
   background-color: #642EFE;
-  margin: 20px auto;
+  margin: 0px auto;
+  float: right;
+  z-index: 0; /*Prioritetinis bloko dydis kuo didesnis tuo auksciau kitu bloku*/
 }
-p{
+/*p{
 	text-align: center;
-	color: tomato;
+	color: #2E2E2E;
 	vertical-align: middle;
+	line-height: 200px;
+	text-transform: uppercase;
+	text-shadow: -1px 0 #f8f8f8, 0 1px #f8f8f8, 1px 0 #f8f8f8, 0 -1px #f8f8f8;
+}*/
+section{
+	width: 1000px ;
+	height: 500px;
+	background-color: #BDBDBD;
+	margin: 0px auto;
+	position: relative;
 }
+
