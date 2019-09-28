@@ -20,3 +20,8 @@ footer{
 footer p{
 	font-family: Arial;
 }
+a.btn {
+  -webkit-appearance: button; background: #c6c6c6;
+  -moz-appearance: button;
+  appearance: button;
+}
