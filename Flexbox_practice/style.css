@@ -1,0 +1,149 @@
+/*Base*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+html{
+	height: 100%;
+}
+body{
+	margin:20px;
+	padding: 0;
+	background-color: #656565;
+}
+/*Containers*/
+.wrapper{
+	width: 85%;
+	margin: 0 auto;
+	background-color: #f4f4f4;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+	grid-row-gap: 0;
+}
+header{
+	width: 100%;
+	background-color: #3697ea;
+	padding: 5px;
+	border: 2px solid #d3d4d5;
+	padding: 2px;
+	align-items:flex-start;
+	order: 1;
+}
+main{
+	width: 70%;
+	border: 2px solid #d3d4d5;
+	align-items: center;
+	align-self: stretch;
+	order: 3;
+}
+.events{
+	width: 30%;
+	height: auto;
+	border: 2px solid #d3d4d5;
+	align-items: center;
+	align-self: stretch;
+	order: 2;
+
+
+}
+/*Logo*/
+.logo{
+	width: 250px;
+	height: 100px;
+	margin: 0px 0px 0px 15px;
+}
+.news{
+	width: 100%;
+	background-color: #dbdcdd;
+}
+.extracon{
+	width: 75%;
+	border: 2px solid #d3d4d5;
+	background-color: #B8CDF8;
+	align-items:center;
+	align-self: stretch;
+	order: 5;
+}
+/*Sidebar1*/
+aside{
+	width: 25%;
+	background-color: #df6f73;
+	border: 2px solid #41463D;
+	align-items: center;
+	align-self: stretch;
+	order: 4;
+}
+/*Related images*/
+.relimages{
+	width: 70%;
+	background-color: #1CFEBA;
+	border: 2px solid #9D8DF1;
+	align-items:center;
+	align-self: stretch;
+	order: 6;
+}
+.relposts{
+	width: 30%;
+	background-color: #95F2D9;
+	border: 2px solid #9D8DF1;
+	align-items:center;
+	align-self: stretch;
+	order: 7;
+}
+/*Footer*/
+footer{
+	width: 100%;
+	background-color: #252121;
+	border: 2px solid #9D8DF1;
+	align-items:flex-end;
+	order: 8;
+}
+/*text footer*/
+p.cop{
+	font-family: verdana;
+	font-size: 14px;
+	color: #f2f2f2;
+	text-align: center;
+}
+/*Headings*/
+
+/*Links*/
+a:link, a:visited {
+  text-decoration: none;
+  padding: 3px;
+}
+
+a:hover, a:active {
+  background-color: #f2f2f2;
+  color: #df6f73;
+  padding: 1px;
+}
+/*Lists*/
+ol, ul{
+	margin-left: 20px;
+}
+ul.sbarnav{
+	padding: 5px;
+	text-align: center;
+	list-style-type: none;
+	font-size: 20px;
+	margin-left: -50px;
+}
+ol.evnt{
+	text-align: center;
+	list-style-position: inside;
+	margin-top: 10px;
+}
+/*icons*/
+.fa-directions{
+	color: #ffffff;
+	font-size: 24px;
+	padding: 1px;
+}
+/*Related image*/
+.foto{
+	margin: 20px 10px 10px 20px;
+}
