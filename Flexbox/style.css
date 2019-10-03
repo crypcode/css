@@ -1,0 +1,51 @@
+/*Base*/
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+div.container{
+	width: 80%;
+	height:1000px;
+	margin: 0 auto;
+	background-color: #D8D8D8;
+
+}
+/*Forms*/
+div.forms{
+	width: 100%;
+	height: 100px;
+}
+form, fieldset, input{
+	border: none;
+	display: inline-block;
+}
+input.search{
+	margin: 20px 50px 10px  900px;
+	padding: 10px;
+}
+select#select, input.checkbox{
+	margin: 20px 50px 10px  20px;
+}
+form{
+	width: 100%;
+	height: 60px;
+}
+/*images*/
+img{
+	padding: 3px;
+	background-color: #f4f4f4;
+	border-radius: 2px #A4A4A4;
+	margin: 5px 5px 5px 5px;
+}
+/*Divs*/
+div.images{
+	width: 90%;
+	height: 700px;
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0 auto;
+}
+
