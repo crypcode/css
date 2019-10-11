@@ -1,0 +1,28 @@
+/* css */
+/*Base*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+html{
+	height: 100%;
+}
+body{
+	margin:20px;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ; /* repeat: (3.fr) tas pats kas 1fr 1fr 1fr*/
+	grid-template-rows: auto;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	background: tomato;
+}
+article{
+	background: #f3f3f3;
+	border: 1px solid #dbdbdb;
+	padding: 10px;
+}

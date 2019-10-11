@@ -1,6 +1,6 @@
 /*Base*/
 *{
-	margin: 0;
+	margin:  0;
 	padding: 0;
 }
 html{
@@ -11,6 +11,7 @@ div.container{
 	height:1000px;
 	margin: 0 auto;
 	background-color: #D8D8D8;
+
 
 }
 /*Forms*/
@@ -37,7 +38,7 @@ form{
 img{
 	padding: 3px;
 	background-color: #f4f4f4;
-	border-radius: 2px #A4A4A4;
+	border: 2px #A4A4A4;
 	margin: 5px 5px 5px 5px;
 }
 /*Divs*/

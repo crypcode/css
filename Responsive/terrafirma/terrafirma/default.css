@@ -23,6 +23,7 @@ line-height: 18px;
   /* For mobile phones: */
  #primarycontent, #secondarycontent {
     width: 100%;
+    float: none;
   }
 }
 a

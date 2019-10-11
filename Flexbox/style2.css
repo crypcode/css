@@ -1,0 +1,27 @@
+/*Base*/
+*{
+	margin:  0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+div.container{
+	width: 80%;
+	height:1000px;
+	margin: 0 auto;
+	background-color: #D8D8D8;
+}
+div.forms{
+		display: flex;
+}
+fieldset{
+	border: none;
+}
+fieldset.search{
+	width: 25%;
+	flex-basis: 50%;
+	margin-right: auto;
+	align-self:flex-end;
+
+}

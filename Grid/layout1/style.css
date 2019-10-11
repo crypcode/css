@@ -1,0 +1,46 @@
+/* css */
+/*Base*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+html{
+	height: 100%;
+}
+body{
+	margin:20px;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+.container{
+	background: #F2F5A9;
+	width: 80% ;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+  	grid-template-rows: auto;
+  	grid-column-gap: 10px;
+  	grid-row-gap: 10px;
+  	grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+header{
+	background: #858585;
+	grid-area: header;
+}
+main{
+	background: tomato;
+	grid-area: main;
+}
+aside{
+	background: red;
+	grid-area: sidebar;
+}
+footer{
+	background: green;
+	grid-area:footer;
+	text-align: center;
+}
