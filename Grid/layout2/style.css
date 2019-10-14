@@ -1,4 +1,4 @@
-/* css */
+a/* css */
 /*Base*/
 *{
 	margin: 0;
@@ -20,20 +20,30 @@ header{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr; /* repeat: (3,1fr) tas pats kas 1fr 1fr 1fr*/
 	grid-template-rows: auto;
-	grid-column-gap: 15px;
-	grid-row-gap: 15px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
 }
 /*For mobile*/
 @media (max-width: 768px) {
 	.container{
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: 0.5fr;
 		grid-template-rows: auto;
 		grid-column-gap: 15px;
 		grid-row-gap: 15px;
 		grid-column: 1;
 	}
 }
+/*@media (max-width: 1400px) {
+	.container{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+		grid-column-gap: 15px;
+		grid-row-gap: 15px;
+		grid-column: 1;
+	}
+}*/
 article{
 	background: #f3f3f3;
 	border: 1px solid #dbdbdb;

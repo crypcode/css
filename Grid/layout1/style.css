@@ -18,7 +18,7 @@ body{
 	width: 80% ;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: repeat(4,1fr);
+	grid-template-columns: 1fr 1fr 1fr 1fr;
   	grid-template-rows: auto;
   	grid-column-gap: 10px;
   	grid-row-gap: 10px;
@@ -30,6 +30,8 @@ body{
 header{
 	background: #858585;
 	grid-area: header;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 main{
 	background: tomato;
